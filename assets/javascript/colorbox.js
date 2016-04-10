@@ -404,7 +404,8 @@
         // Cache values needed for size calculations
         interfaceHeight = $topBorder.height() + $bottomBorder.height() + $content.outerHeight(true) - $content.height();
         interfaceWidth = $leftBorder.width() + $rightBorder.width() + $content.outerWidth(true) - $content.width();
-        loadedHeight = $loaded.outerHeight(true);
+        var HEIGHT_ADJUSTMENT = 30; // Adjust height for custom title changes
+        loadedHeight = $loaded.outerHeight(true) + HEIGHT_ADJUSTMENT;
         loadedWidth = $loaded.outerWidth(true);
 
         // Opens inital empty Colorbox prior to content being loaded.
