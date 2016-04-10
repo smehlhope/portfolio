@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio website for full-stack developer, Stephanie Mehlhope">
+  <meta name="author" content="Stephanie Mehlhope">
+  <title>Stephanie Mehlhope</title>
+
+  <script src="assets/javascript/jquery-2.2.1.js"></script>
+  <script src="assets/javascript/bootstrap.js"></script>
+  <script src="assets/javascript/colorbox.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
+</head>
+<body>
+<!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+          <li class="sidebar-brand">
+              <a href="#top"  onclick = $("#menu-close").click();>Navigation</a>
+          </li>
+          <li>
+              <a href="#top" onclick = $("#menu-close").click();>Home</a>
+          </li>
+          <li>
+              <a href="#about" onclick = $("#menu-close").click();>About</a>
+          </li>
+          <li>
+              <a href="#technical" onclick = $("#menu-close").click();>Technology</a>
+          </li>
+          <li>
+              <a href="#portfolio" onclick = $("#menu-close").click();>Portfolio</a>
+          </li>
+      </ul>
+  </nav>
+
+  <!-- Header -->
+  <header id="top" class="header">
+      <div class="text-vertical-center">
+        <h1>Stephanie Mehlhope</h1>
+        <h3>Full Stack Web Developer</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
+  </header>
+
+<!-- About -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Diligent, dependable, addicted to success.</h1>
+      </div>
+      <div class="col-lg-12  text-center">
+        <p class="lead">Spending on average 70-90 hours per week learning three full web development stacks (LAMP, MEAN and Ruby on Rails) testifies to my dedication to success in web development. Patient and determined, I meet my obligations, period. My primary goal is to be effective in my work, and I believe that with diligent organization and clear communication that goal can be achieved.</p>
+      </div>
+      <div class="col-lg-12  text-center">
+        <p class="lead">Before I became interested in web development I worked in Geomorphology and Environmental Compliance in federal and state government. From those experiences I have gained a unique perspective on teamwork (after working with politicians I can help a team work together smoothly), responsibility (literally being responsible for my subordinates’ lives during fieldwork), and a passion for how technology can change lives (making tools for compliance with federal/state regulations).</p>
+        <p class="lead">Coding can become an addiction – I’m hooked.  Creating an application from scratch and seeing that your creation performs as intended directly stimulates the brain’s <a href="https://en.wikipedia.org/wiki/Reward_system">reward pathway</a>. So, scientifically speaking, programming is genuinely fun and the ability to work in a career that I love is gratifying. I’m incredibly excited for my future in development.</p>
+      </div>
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <img id="steph" src="assets/images/steph.jpg" alt="..." class="center-block img-rounded img-responsive">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+
+<!-- TECHNICAL -->
+<section id="technical" class="technical">
+  <div class="container">
+    <div class="row text-center">
+      <h1><strong>Technology</strong></h1>
+      <hr class="small">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="technical-item">
+              <h3>Languages</h3>
+              <ul>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>Ruby</li>
+              </ul>
+              <h4><strong>Version Control</strong></h4>
+              <ul>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="technical-item">
+              <h3>Front-End Development</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>CoffeeScript</li>
+                <li>JQuery</li>
+                <li>AJAX</li>
+                <li>AngularJS</li>
+                <li>API Integrations</li>
+                <li>Bootstrap</li>
+                <li>WebSockets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="technical-item">
+              <h3>Back-End Development</strong>
+              </h3>
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>NodeJS</li>
+                <li>CodeIgniter</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Mongoose.js</li>
+                <li>Express</li>
+                <li>Socket.io</li>
+                <li>Apache/nginx</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="technical-item">
+              <h3>Methodologies</h3>
+              <ul>
+                <li>OOP</li>
+                <li>MVC</li>
+                <li>RESTful Architecture</li>
+              </ul>
+              <h4><strong>Testing</strong></h4>
+              <ul>
+                <li>TDD</li>
+                <li>RSPEC</li>
+                <li>Capybara</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2><strong>A Selection of My Work</strong></h2>
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="nasaGroup" href="assets/images/nasa.png" title="On page load, NASA's Astronomy Picture of the Day is automatically loaded as the background. JQuery is used to toggle the background's explanation text (left) as well as the menus for Mars and Earth Imagery (right).">
+                <img class="img-portfolio img-rounded img-responsive" src="assets/images/nasa.png" alt="NASA API Project Cover Photo">
+              </a>
+              <a class="nasaGroup" href="assets/images/explanation.png" title="Toggled Astronomy Picture of the Day explanation text."></a>
+              <a class="nasaGroup" href="assets/images/mars_earth_on.png" title="Display after using the forms to select imagery from the Mars Rover of choice and Landsat location."></a>
+              <a class="nasaGroup" href="assets/images/earth_toggled.png" title="The Mars Rover and Landsat imagery forms toggle using JQuery as well!"></a>     
+              <a href="https://github.com/smehlhope/NASA-Api">Github for NASA API Project</a>
+
+            </div>
+          </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a class="hearthstoneGroup" href="assets/images/hearthstone.png" title="Homepage for a sample e-commerce site selling hypothetical Hearthstone cards.">
+                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/hearthstone.png" alt="Homepage for Hearthstone E-Commerce site">
+                </a>
+                <a class="hearthstoneGroup" href="assets/images/hearthstone_cart.png" title="Shopping cart built 'from scratch' (not utilizing the CodeIgniter cart library)."></a>
+                <a class="hearthstoneGroup" href="assets/images/hearthstone_order.png" title="Order status page - only viewable by administrator login. The status color changes whether the order is waiting for shipping, has shipped, or has arrived to the customer."></a>
+                <a href="https://github.com/raymondluu/hearthstone_ecommerce">Github for Hearthstone E-Commerce Project</a>    
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="https://github.com/smehlhope/mean_contact_list">
+                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/contact_list.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a class="forumGroup" href="assets/images/forum.png" title="Homepage for the Wandering (yes, that is a real word!) Reader Forum. This is a pet project built using PHP with MVC. It was designed using Bootstrap.">
+                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/forum.png">
+                </a>
+                <a class="forumGroup" href="assets/images/forum_user_profile.png" title="When logged in the user's gravatar (web-wide, shared) image is automatically loaded to all parts of the site. The user is able to edit their profile post topics and comments to discussions."></a>
+                <a class="forumGroup" href="assets/images/forum_user_edit.png" title="The user's identification is authenticated/verified to allow their own posts and comments to be edited, these are automatically filled out to the edit boxes."></a>
+                <a href="https://github.com/smehlhope/PHP-Forum-Project">Github for The Wandering Reader Forum</a>
+              </div>
+            </div>
+          </div>  
+          <!-- /.row (nested) -->
+          <a href="https://github.com/smehlhope" class="btn btn-dark">Stephanie's Github</a>
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h1><strong>Find Me on the Web</strong></h1>
+          <ul class="list-inline">
+            <li>
+                <a href="https://github.com/smehlhope"><i class="fa fa-github fa-fw fa-4x"></i></a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/smehlhope"><i class="fa fa-linkedin fa-fw fa-4x"></i></a>
+            </li>
+          </ul>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; Stephanie Mehlhope 2016</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Custom Theme JavaScript -->
+  <script>
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+  });
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+  });
+  // Scrolls to the selected menu item on the page
+  $(function() {
+      // $('a[href*=#]:not([href=#])').click(function() {
+      //     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+      //         var target = $(this.hash);
+      //         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      //         if (target.length) {
+      //             $('html,body').animate({
+      //                 scrollTop: target.offset().top
+      //             }, 1000);
+      //             return false;
+      //         }
+      //     }
+      // });
+  });
+  </script>
+
+
+  <script>
+    $(function(){
+        $(".nasaGroup").colorbox({rel:'nasaGroup', transition:"none", width:"75%", height:"75%"});
+        $(".hearthstoneGroup").colorbox({rel:'hearthstoneGroup', transition:"none", width:"75%", height:"75%"});
+        $(".forumGroup").colorbox({rel:'forumGroup', transition:"none", width:"75%", height:"75%"});
+      });
+  </script>
+
+</body>
+</html>
