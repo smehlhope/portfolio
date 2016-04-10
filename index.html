@@ -170,19 +170,18 @@
           <div class="col-md-6">
             <div class="portfolio-item">
               <a class="nasaGroup" href="assets/images/nasa.png" title="On page load, NASA's Astronomy Picture of the Day is automatically loaded as the background. JQuery is used to toggle the background's explanation text (left) as well as the menus for Mars and Earth Imagery (right).">
-                <img class="img-portfolio img-rounded img-responsive" src="assets/images/nasa.png" alt="NASA API Project Cover Photo">
+                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/nasa.png" alt="NASA API Project Cover Photo">
               </a>
               <a class="nasaGroup" href="assets/images/explanation.png" title="Toggled Astronomy Picture of the Day explanation text."></a>
               <a class="nasaGroup" href="assets/images/mars_earth_on.png" title="Display after using the forms to select imagery from the Mars Rover of choice and Landsat location."></a>
               <a class="nasaGroup" href="assets/images/earth_toggled.png" title="The Mars Rover and Landsat imagery forms toggle using JQuery as well!"></a>     
               <a href="https://github.com/smehlhope/NASA-Api">Github for NASA API Project</a>
-
             </div>
           </div>
             <div class="col-md-6">
               <div class="portfolio-item">
                 <a class="hearthstoneGroup" href="assets/images/hearthstone.png" title="Homepage for a sample e-commerce site selling hypothetical Hearthstone cards.">
-                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/hearthstone.png" alt="Homepage for Hearthstone E-Commerce site">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/hearthstone.png" alt="Homepage for Hearthstone E-Commerce site">
                 </a>
                 <a class="hearthstoneGroup" href="assets/images/hearthstone_cart.png" title="Shopping cart built 'from scratch' (not utilizing the CodeIgniter cart library)."></a>
                 <a class="hearthstoneGroup" href="assets/images/hearthstone_order.png" title="Order status page - only viewable by administrator login. The status color changes whether the order is waiting for shipping, has shipped, or has arrived to the customer."></a>
@@ -193,22 +192,57 @@
           <div class="row">
             <div class="col-md-6">
               <div class="portfolio-item">
-                <a href="https://github.com/smehlhope/mean_contact_list">
-                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/contact_list.png">
-                </a>
+                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/contact_list.png">
+                <a href="https://github.com/smehlhope/mean_contact_list">Github for MEAN Contact List App</a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="portfolio-item">
                 <a class="forumGroup" href="assets/images/forum.png" title="Homepage for the Wandering (yes, that is a real word!) Reader Forum. This is a pet project built using PHP with MVC. It was designed using Bootstrap.">
-                  <img class="img-portfolio img-rounded img-responsive" src="assets/images/forum.png">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/forum.png">
                 </a>
                 <a class="forumGroup" href="assets/images/forum_user_profile.png" title="When logged in the user's gravatar (web-wide, shared) image is automatically loaded to all parts of the site. The user is able to edit their profile post topics and comments to discussions."></a>
                 <a class="forumGroup" href="assets/images/forum_user_edit.png" title="The user's identification is authenticated/verified to allow their own posts and comments to be edited, these are automatically filled out to the edit boxes."></a>
                 <a href="https://github.com/smehlhope/PHP-Forum-Project">Github for The Wandering Reader Forum</a>
               </div>
             </div>
-          </div>  
+          </div>      
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a class="pinGroup" href="assets/images/pin_board.png" title="Pinterest Clone created using Ruby on Rails, JQuery, HAML, Devise, Masonry, and Bootstrap. This was created following a tutorial by @mackenziechild.">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/pin_board.png">
+                </a>
+                <a class="pinGroup" href="assets/images/pin_like.png" title="Each pin shows who has liked the pin and who submitted it."></a>
+                <a class="pinGroup" href="assets/images/new_pin.png" title="Login to add a pin!"></a>
+                <a class="pinGroup" href="assets/images/pin_edit_acct.png" title="Edit or cancel your account with the pinterest clone board."></a>
+                <a href="https://github.com/smehlhope/pinterest-clone">Github for Pinterest Clone (credit to @mackenziechild)</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a class="groceryGroup" href="assets/images/grocery_list.png" title="Scaffolded Ruby on Rails application for keeping track of your grocery list items. Searching for items is easy as items are conveniently paginated and can be sorted by section of the store or searched for by name.">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/grocery_list.png">
+                </a>
+                <a class="groceryGroup" href="assets/images/grocery_user.png" title="User functionality for the grocery list application is complete with all CRUD methods for the user and for the grocery list. The intent of this product is not to be pretty - it is to be quick and functional for the user."></a>
+                <a href="https://github.com/smehlhope/GroceryList">Github for RoR Grocery List App</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/group_chat.png" alt="Socket/Express Group Chat site">
+                <a href="">Github for Node.js/Socket/Express Instant Group Chat</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/troll_toad.png" alt="Troll and Toad CSV parse/upload request">
+                <a href="https://github.com/smehlhope/trollandtoadCards">Github for Ruby on Rails CSV Upload to Model with Pagination</a>
+              </div>
+            </div>    
+          </div>
           <!-- /.row (nested) -->
           <a href="https://github.com/smehlhope" class="btn btn-dark">Stephanie's Github</a>
       </div>
@@ -276,6 +310,8 @@
         $(".nasaGroup").colorbox({rel:'nasaGroup', transition:"none", width:"75%", height:"75%"});
         $(".hearthstoneGroup").colorbox({rel:'hearthstoneGroup', transition:"none", width:"75%", height:"75%"});
         $(".forumGroup").colorbox({rel:'forumGroup', transition:"none", width:"75%", height:"75%"});
+        $(".pinGroup").colorbox({rel:'pinGroup', transition:"none", width:"75%", height:"75%"});
+        $(".groceryGroup").colorbox({rel:'groceryGroup', transition:"none", width:"75%", height:"75%"});
       });
   </script>
 
