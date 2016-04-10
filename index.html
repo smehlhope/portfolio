@@ -192,7 +192,9 @@
           <div class="row">
             <div class="col-md-6">
               <div class="portfolio-item">
-                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/contact_list.png">
+                <a class="contactList" href="assets/images/contact_list.png" title="Simple bootstrapped contact list organizer with a MongoDB database, Node.js server, front-end using Angular.js, and Express framework. (Full MEAN stack)">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/contact_list.png">
+                </a>  
                 <a href="https://github.com/smehlhope/mean_contact_list">Github for MEAN Contact List App</a>
               </div>
             </div>
@@ -232,13 +234,17 @@
           <div class="row">
             <div class="col-md-6">
               <div class="portfolio-item">
-                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/group_chat.png" alt="Socket/Express Group Chat site">
+                <a class="chat" href="assets/images/group_chat.png" title="Instantaneous communication using Node.js, Sockets, and Express.">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/group_chat.png" alt="Node.js/Socket/Express Group Chat site">
+                </a>  
                 <a href="">Github for Node.js/Socket/Express Instant Group Chat</a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="portfolio-item">
-                <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/troll_toad.png" alt="Troll and Toad CSV parse/upload request">
+                <a class="trollToad" href="assets/images/troll_toad.png" title="Client requested a &quot;very simple site to allow me (them) to upload extremely large CSV lists of playing cards and parse through them to find the exact cards or range of selling/buying prices desired&quot;.">
+                  <img class="img-portfolio img-rounded img-responsive drop-shadow" src="assets/images/troll_toad.png" alt="Troll and Toad CSV parse/upload request">
+                </a>
                 <a href="https://github.com/smehlhope/trollandtoadCards">Github for Ruby on Rails CSV Upload to Model with Pagination</a>
               </div>
             </div>    
@@ -308,10 +314,13 @@
   <script>
     $(function(){
         $(".nasaGroup").colorbox({rel:'nasaGroup', transition:"none", width:"75%", height:"75%"});
+        $(".contactList").colorbox({rel:'contactList', transition:"none", width:"75%", height:"75%"});
         $(".hearthstoneGroup").colorbox({rel:'hearthstoneGroup', transition:"none", width:"75%", height:"75%"});
         $(".forumGroup").colorbox({rel:'forumGroup', transition:"none", width:"75%", height:"75%"});
         $(".pinGroup").colorbox({rel:'pinGroup', transition:"none", width:"75%", height:"75%"});
         $(".groceryGroup").colorbox({rel:'groceryGroup', transition:"none", width:"75%", height:"75%"});
+        $(".chat").colorbox({rel:'chat', transition:"none", width:"75%", height:"75%"});
+        $(".trollToad").colorbox({rel:'trollToad', transition:"none", width:"75%", height:"75%"});
       });
   </script>
 
