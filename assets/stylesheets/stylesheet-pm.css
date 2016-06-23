@@ -238,7 +238,7 @@ hr.small {
   /* .management div styling with .technical */
 .management li {
   text-align: left;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   font-size: 1.25em;
 
 }
